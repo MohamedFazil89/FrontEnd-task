@@ -6,7 +6,7 @@
     animation: rotate 1s ease-in 1 forwards;
     transform: translateY(10rem);
     opacity: 0;
-    top: 6rem;
+    top: 5rem;
 
 }
 @keyframes rotate {
