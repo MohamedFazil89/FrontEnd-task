@@ -1,0 +1,67 @@
+.Mobile{
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    z-index: 30;
+    animation: rotate 1s ease-in 1 forwards;
+    transform: translateY(10rem);
+    opacity: 0;
+
+}
+@keyframes rotate {
+    0% {
+        transform: translateY(10rem)
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    
+}
+.Layout{
+    position: absolute;
+    top: -69px;
+    left: 89px;
+    max-width: 15rem;
+    height: min-content;
+    /* background-color: black; */
+    border-radius: 30px;
+    
+
+
+}
+
+.Video{
+    position: absolute;
+    top: -69px;
+    left: 99px;
+    width: 13.5rem;
+    height: 29.5rem;
+    object-fit: cover;
+    z-index: -1;
+    border-radius: 28px;
+    pointer-events: none;
+
+
+}
+
+@media (max-width: 768px) {
+    .Mobile{
+        max-width: 100%;
+        /* left: 22rem; */
+        top: 12rem;
+        right: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .Mobile{
+        /* left: 4rem; */
+    }
+}
+
+/* @media (max-width: 992px) {
+    .Mobile{
+        top: 40rem;
+    }
+} */
